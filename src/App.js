@@ -5,17 +5,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h1><code>Extract flight data</code></h1>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <form>
+      <label style = "padding-top: 10px;">
+        Enter text here:<br /><input type = "text" />
+      </label>
+    </form>
     </div>
   );
 }
